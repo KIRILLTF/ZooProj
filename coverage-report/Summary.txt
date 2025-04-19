@@ -1,0 +1,45 @@
+Summary
+  Generated on: 20.04.2025 - 1:50:33
+  Coverage date: 20.04.2025 - 1:48:02 - 20.04.2025 - 1:50:16
+  Parser: MultiReport (2x Cobertura)
+  Assemblies: 1
+  Classes: 23
+  Files: 19
+  Line coverage: 76.1%
+  Covered lines: 185
+  Uncovered lines: 58
+  Coverable lines: 243
+  Total lines: 580
+  Branch coverage: 47% (16 of 34)
+  Covered branches: 16
+  Total branches: 34
+  Method coverage: 77.6% (73 of 94)
+  Full method coverage: 67% (63 of 94)
+  Covered methods: 73
+  Fully covered methods: 63
+  Total methods: 94
+
+ZooProj                                                  76.1%
+  Program                                                   0%
+  Zoo.Application.Animals.AnimalTransferService           100%
+  Zoo.Application.Feeding.FeedingOrganizationService      100%
+  Zoo.Application.Statistics.ZooStatisticsService         100%
+  Zoo.Application.Statistics.ZooStatsDto                  100%
+  Zoo.Domain.Entities.Animal                             86.6%
+  Zoo.Domain.Entities.Enclosure                          87.5%
+  Zoo.Domain.Entities.FeedingSchedule                    86.6%
+  Zoo.Domain.Events.AnimalMovedEvent                     33.3%
+  Zoo.Domain.Events.FeedingTimeEvent                       40%
+  Zoo.Domain.Primitives.ValueObject                         0%
+  Zoo.Domain.ValueObjects.FoodType                        100%
+  Zoo.Domain.ValueObjects.Species                        83.3%
+  Zoo.Infrastructure.Persistence.InMemoryRepository<T>   69.2%
+  Zoo.Presentation.Controllers.AddScheduleDto             100%
+  Zoo.Presentation.Controllers.AnimalsController         52.3%
+  Zoo.Presentation.Controllers.CreateAnimalDto            100%
+  Zoo.Presentation.Controllers.CreateEnclosureDto         100%
+  Zoo.Presentation.Controllers.EnclosuresController      64.2%
+  Zoo.Presentation.Controllers.FeedingController          100%
+  Zoo.Presentation.Controllers.MoveDto                    100%
+  Zoo.Presentation.Controllers.StatisticsController       100%
+  Zoo.Presentation.Controllers.TransfersController        100%
