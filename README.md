@@ -64,14 +64,3 @@
    - Application зависит от Domain и абстракций  
    - Infrastructure зависит только от Application абстракций  
 
-```text
-+----------------------+      +----------------------+      +----------------------+
-|      Controllers     | ---> |     Application      | ---> |        Domain        |
-|  (Web API / .cs)     |      | (Services / DTOs)    |      | (Entities / VOs / Events) |
-+----------------------+      +----------------------+      +----------------------+
-         ^                             ^                            |
-         |                             |                            v
-         +-----------------------------+                  +----------------------+
-           Program.cs & DI             Infrastructure     |  InMemoryRepository  |
-                                                    (Implements IRepository<T>)  
-                                                 +----------------------+
